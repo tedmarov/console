@@ -12,6 +12,11 @@ export default defineAppConfig({
   },
   billing: {
     host: 'https://console.mytiki.com',
+    stripe: {
+      igtProductId: 'prod_NxPayH6ltybQVV',
+      lmsmProductId: 'prod_NxPvzVRz2wXzPx',
+      lmsmaoProductId: 'prod_NxPxbsvCIhGm0I',
+    },
   },
   registry: {
     host: 'https://registry.l0.mytiki.com',
